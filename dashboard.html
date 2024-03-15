@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لوحة تصدير اسماء المتطوعين </title>
+    <link rel="stylesheet" href="style/all.css">
+    <link rel="stylesheet" href="style/font-awesome.min.css">
+    <link rel="stylesheet" href="style/master.css">
+    <link rel="shortcut icon" href="images/icon.PNG">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/newlogo-removebg-preview .png" alt="">
+                </div>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html">الصفحة الرئيسية</a></li>
+                        <li><a href="Volunteer opportunities.html">الفرص التطوعية</a></li>
+                        <li><a href="register.html">كيفية التسجيل</a></li>
+                        <li><a href="moreinfo.html"> المزيد من المعلومات</a></li>
+                        <li><a href=""> اتصل بنا</a></li>
+                        <li style="color: rgb(6, 6, 6)">
+                            2
+                            <i class="far fa-bell fa-2x" style="color: rgb(6, 6, 6);"></i>
+
+                        </li>
+                    </ul>
+                </nav>
+                <button> تسجيل الخروج</button>
+            </div>
+        </div>
+    </header>
+    <section class="dashboard">
+        <div class="filter-options">
+            <label for="cityFilter">الفلترة بالمدينة:</label>
+            <select id="cityFilter">
+                <option value="all">الكل</option>
+                <option value="riyadh">الرياض</option>
+                <option value="makaa">مكة المكرمة</option>
+                <option value="madinah">المدينة المنورة</option>
+                <option value="elgsem">القصيم</option>
+                <option value="elsareka">الشرقية</option>
+                <option value="aser">عسير</option>
+                <option value="tabok">تبوك</option>
+                <option value="hahel">حائل</option>
+                <option value="nagran">نجران</option>
+                <option value="nagran">الباحة</option>
+            </select>
+
+            <label for="hoursFilter">الفلترة بعدد الساعات:</label>
+            <select id="hoursFilter">
+                <option value="all">الكل</option>
+                <option value="1">١</option>
+                <option value="2">٢</option>
+                <option value="3">٣</option>
+                <option value="4">٤</option>
+                <option value="5">٥</option>
+                <option value="6">٦</option>
+                <option value="7">٧</option>
+                <option value="8">٨</option>
+                <option value="9">٩</option>
+                <option value="10">١٠</option>
+
+            </select>
+        </div>
+
+        <table class="volunteer-table">
+            <thead>
+                <tr>
+                    <th>الاسم</th>
+                    <th>المدينة</th>
+                    <th>عدد الساعات</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>المتطوع الاول</td>
+                    <td>الرياض</td>
+                    <td>١٠</td>
+                </tr>
+                <tr>
+                    <td>المتطوع الثاني</td>
+                    <td>مكة المكرمة</td>
+                    <td>٩</td>
+                </tr>
+                <tr>
+                    <td>المتطوع الثالث</td>
+                    <td>المدينة المنورة</td>
+                    <td>٨</td>
+                </tr>
+                <tr>
+                    <td>المتطوع الرابع</td>
+                    <td>القصيم</td>
+                    <td>٧</td>
+                </tr>
+                <tr>
+                    <td>المتطوع الخامس</td>
+                    <td>الشرقية</td>
+                    <td>٦</td>
+                </tr>
+                <tr>
+                    <td>المتطوع السادس</td>
+                    <td>عسير</td>
+                    <td>٥</td>
+                </tr>
+                <tr>
+                    <td>المتطوع السابع</td>
+                    <td>تبوك</td>
+                    <td>٤</td>
+                </tr>
+                <tr>
+                    <td>المتطوع الثامن</td>
+                    <td>حائل</td>
+                    <td>٣</td>
+                </tr>
+                <tr>
+                    <td>المتطوع التاسع</td>
+                    <td>نجران</td>
+                    <td>٢</td>
+                </tr>
+                <tr>
+                    <td>المتطوع العاشر</td>
+                    <td>الباحة</td>
+                    <td>١</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </section>
+</body>
+
+</html>
